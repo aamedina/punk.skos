@@ -1,0 +1,5 @@
+{:vocab  {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator
+          :init-ns      net.wikipunk.temple.init
+          :ns-prefix    "net.wikipunk.rdf."
+          :boot         [net.wikipunk.punk.skos.boot/punk.skos]}
+ :openai {:sc/create-fn net.wikipunk.openai/map->Client}}
